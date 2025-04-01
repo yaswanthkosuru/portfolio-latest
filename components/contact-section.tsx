@@ -131,45 +131,7 @@ export function ContactSection() {
               </form>
             </motion.div>
 
-            {/* Contact Info */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
-              className="space-y-8"
-            >
-              <div className="group bg-black/20 backdrop-blur-sm rounded-2xl border border-white/10 p-8 hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20">
-                <h3 className="text-2xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50">
-                  Get in Touch
-                </h3>
-                <div className="space-y-6">
-                  <Link
-                    href="mailto:samrathreddy04@gmail.com"
-                    className="flex items-center gap-4 text-gray-400 hover:text-primary transition-colors"
-                  >
-                    <Mail className="h-5 w-5" />
-                    <span>samrathreddy04@gmail.com</span>
-                  </Link>
-                  <Link
-                    href="https://linkedin.com/in/samrath-reddy"
-                    target="_blank"
-                    className="flex items-center gap-4 text-gray-400 hover:text-primary transition-colors"
-                  >
-                    <Linkedin className="h-5 w-5" />
-                    <span>linkedin.com/in/samrath-reddy</span>
-                  </Link>
-                  <Link
-                    href="https://github.com/samrathreddy"
-                    target="_blank"
-                    className="flex items-center gap-4 text-gray-400 hover:text-primary transition-colors"
-                  >
-                    <Github className="h-5 w-5" />
-                    <span>github.com/samrathreddy</span>
-                  </Link>
-                </div>
-              </div>
-            </motion.div>
+  
           </div>
         </div>
       </div>
